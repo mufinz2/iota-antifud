@@ -1,5 +1,9 @@
 # A curated list of IOTA FUD counterarguments
 
+ Please also read this. Very good FAQ.
+ https://www.reddit.com/r/CryptoCurrency/comments/7jnsap/iota_and_tangle_discussioninfo_scam_or_not/
+
+## Purpose of Writing
 Since posting FUD is so ridiculously low-effort in comparison to setting the record straight, I felt it necessary to put a log of copy-pastas together to balance the scales so its just as easy to answer the FUD as it was to generate it. So next time you hear someone say "IOTA is centralized" you no longer have to take an hour out of your day to set the record straight. You just copy-paste away and move on.
 
 It's also worth mentioning IOTA devs are too damn busy working on the protocol and doing their job to answer FUD. So I felt a semblance of responsibility.
@@ -40,9 +44,9 @@ https://forum.helloiota.com/1191/Setting-Up-a-Full-Node-A-Comprehensive-Guide
 
 ## How to generate wallet and seed
 
-Download official wallet here
+Download official wallet [here](https://github.com/iotaledger/wallet/releases)
 
-1) only use the sidebar generators to create your seed. Also generate it while not connected to the internet, preferably in an air gapped device that never has nor will connect to the internet. But, if you don’t trust generators at all you can also make your seed by drawing a 9x9 matrix on paper (81 char seed) and roll dice for the values in each cell.
+1) only use the sidebar generators to create your seed. Also generate it while not connected to the internet, preferably in an air gapped device that never has nor will connect to the internet. But, if you don’t trust generators at all you can also make your seed by drawing a 9x9 matrix on paper (81 char seed) and roll [dice](https://imgur.com/a/vnq5L) for the values in each cell.
 
 2) if you send from an address, trash that address and never use it again. You can receive to an address as many times as you want but once you send from it you gotta move to a new address. The desktop wallet does this automatically so no need to worry about doing it yourself 👍
 
@@ -62,7 +66,7 @@ Or use one from the top of this list: www.iota.dance/nodes
 
 This is why: https://blog.iota.org/the-transparency-compendium-26aa5bb8e260
 
-Cybercrypt has been hired to review and audit it. IOTA is currently running SHA-3/KECCAK now until Curl is ready.
+[Cybercrypt](https://blog.iota.org/iota-foundation-hires-cybercrypt-615d2df79001) has been hired to review and audit it. IOTA is currently running SHA-3/KECCAK now until Curl is ready.
 
 ## MIT said bad things about IOTA
 
@@ -88,7 +92,7 @@ Nick Johnson was a perfect example of this. The Ethereum community was co-existi
 
 IOTA is more decentralized than any blockchain crypto that relies on 5 pools of miners, all largely based in China. Furthermore, coordinator isn’t a central server all transactions pass through, contrary to popular misconception. It is just normal actor who adds transactions to the tangle, which other nodes can use as milestones, if they wish. It’s a shepherd, you could say, which the herd can follow so they don’t go astray (following some malicious nodes or whatnot). The Monte Carlo Random Walk algorithm is what will create consensus in the herd when there is no shepherd any more. It will be comparable to every sheep calling out while also following the sound of the call of the rest of the herd. That way they can all tangle up together.
 
-Referencing the coordinator is also optional.
+Referencing the coordinator is also [optional](https://www.reddit.com/r/Iota/comments/7717ms/at_what_point_will_iota_remove_the_validator/).
 
 Also, if you research and understand how IOTA intends to work without the coordinator, it’s easier to accept it for now as training wheels. I suggest reading pg 15 and on of the white paper analyzing in great depth how the network will defend different attack scenarios without a coordinator. For the past several months, IOTA foundation has been using St Petersburg college’s super computer to stress test IOTA and learn when they can turn the coordinator off. There will likely be a blog about the results soon.
 
@@ -126,7 +130,7 @@ We believe so. For now this is all we know: https://twitter.com/iotatoken/status
 
 ## Companies technically don’t have to use the IOTA token
 
-Yes they do
+[Yes they do](https://i.redd.it/t6gmplq0c2tz.jpg)
 
 Worth clarifying that 0 iota data transactions are perfectly fine and are welcomed since they still provide pow for 2 other transactions and help secure the network. In the early stages, these types of transactions will probably be what give us the tps/pow needed to remove the coordinator and allow the network defend 34% attacks organically.
 
@@ -154,13 +158,16 @@ https://medium.com/deviota/carriota-nelson-in-a-nutshell-1ee5317d8f19
 
 Microsoft is in fact real: see David's response here: https://www.reddit.com/r/Iota/comments/7inys6/does_anyone_have_information_on_why_microsoft/dr05u5u/
 
-All these partnerships are going to influence IOTA development!!
+And this article covering the whole situation:
+https://www.psychologytoday.com/blog/mind-in-the-machine/201712/how-fear-is-being-used-manipulate-cryptocurrency-markets
 
-Microsoft has no influence on the development of IOTA. They either choose to use it or they don’t. Same goes for Bosch, Innogy, Fujitsu, Schneider electric and every other IOTA partner.
+## All these companies are going to influence IOTA development!!
+
+Microsoft has no influence on the development of IOTA. They either choose to use it or they don’t. Same goes for Bosch, Innogy, Fujitsu, Schneider electric etc etc..
 
 ## Internet of things is cheap and will stay cheap
 
--Internet of things is one application of IOTA and considered by many to be the 4th industrial revolution. Go do some googling. IOTA having zero fees enables M2M for the first time in history. Also, if a crypto can do M2M it sure as shit can do M2P and P2P.
+Internet of things is one application of IOTA and considered by many to be the 4th industrial revolution. Go do some googling. IOTA having zero fees enables M2M for the first time in history. Also, if a crypto can do M2M it sure as shit can do M2P and P2P.
 
 ## Bitcoin with lightning network will make IOTA obsolete.
 
@@ -192,13 +199,13 @@ Might I add with its infinite scaling, IOTA is the ONLY crypto that has the capa
 
 ## Why is UCL wallet taking so long!!??
 
-It will release when it’s ready. Most folks are going to be transferring their iota to it so they are making damn sure it’s bullet proof. We don’t need a “parity” situation to happen to iota.
+It will release when it’s ready. Most folks are going to be transferring their iota to it so they are making damn sure it’s bullet proof. We don’t need a [parity](https://www.theregister.co.uk/2017/11/16/parity_flaw_not_fixed/) situation to happen to iota.
 
 ## Investing in a new project barely off the ground
 
 To Ppl complaining: welcome to investing in a project in its early stages, something typically reserved for wealthy individuals/organizations before ICO’s became a thing. With early investing comes much less hand holding and more responsibility on the user to know what they are doing. If you have a hard time accepting this responsibility, don’t invest and wait for the technology to get easier for you. How many people actually knew how to use and mine bitcoin in 2009 before it had all its gui infrastructure?
 
-The wallet is a tiring issue for the regulars here. every spike in price leads to a wave of new investors complaining about the wallet and claiming it must immediately become “top priority” for the devs. But a minuscule amount of research and you would find the user-friendly update your looking for is right around the corner with UCL.
+The wallet is a tiring issue for the regulars here. Every spike in price leads to a wave of new investors complaining about the wallet and claiming it must immediately become “top priority” for the devs. But a minuscule amount of research and you would find the user-friendly update your looking for is right around the corner with UCL.
 
 It’s worth noting IOTA is a tangle, the first of its kind. NOT a copy paste blockchain. As a result wallets for IOTA are the first of their kind and translating the tangle into a nice clean user-friendly blockchain experience for the masses is even more taxing.
 
@@ -213,3 +220,27 @@ http://live.iotaknot.com/
 ## IOTA Introduction video to share with family
 
 https://youtu.be/LyC04NrJ3yA
+
+# 12/14/2017 Addition: 
+
+## Dev's said something on Slack!
+Slack is a place for casual banter. It's intent is not for every message to be screenshotted and broadcasted all over the internet. If you interpret something on slack seriously and end up dissapointed, that isn't the fault of the devs. 
+
+## IOTA open source?
+IOTA protocol is open source. The coordinator is closed source. The coordinator will be open source in December, 2017. Dom confirmed in AMA here: 
+https://answers.thenextweb.com/s/dominik-schiener-and-david-sonstebo-d0XXq0
+https://imgur.com/a/xWQUp
+
+## What is the IOTA foundation?
+IOTA foundation is a non-profit established in Germany and recognized by the European Union. Blog post here: https://blog.iota.org/iota-foundation-fb61937c9a7e
+
+## Announcement of Announcements:
+You only get in trouble with this practice if you "overhype" something or are too cryptic and let your community's imaginations run wild. I will say the last time the IOTA dev's hyped something, the data market place was announced so I would say their track record is pretty good and they have enough common sense to know what will be big and what won't. But it only takes one mishap to sour the tone so its a thin line to walk.  
+
+## Why is the price of my coin falling?!
+This may be the most asked question on any crypto subreddit but it's also the easiest to explain. The price typically falls when bad things happen to a coin or media fabricates bad news about a coin and a portion of investors take it seriously. The price increases when good things happen to a coin, such as a new exchange listing or a partnership announced etc.. The one piece that is often forgotten but trumps all these effects is something called "market forces". 
+
+Market forces is what happens to your coin when **another** coin gets a big news hit or a group of other coins get big news hits together. For example, when IOTA data marketplace released, IOTA hit a x5 bull run in a single week. But did you notice all the other alt coins in the red? There are a LOT of traders that are looking at the space as a whole and looking to get in on ANY bull action and will sell their other coins to do so. This effect can also be compounded over a long period of time such as what we witnessed when the bitcoin fork FOMO was going on and alt coins were squeezed continuously to feed it for weeks/months. 
+
+It's also important to note that there are layers of investors. There's a top layer of fudsy investors that are a mixture of day traders  and gamblers trying to jump in and jump out to make quick money then look for the next buying opportunity at another coin. There's a middle layer of buyers and holders who did their research, believe in the tech and placing their bets it will win out in the long run. And the bottom layer are the founders & devs that are in it till the bitter end and there to see the vision realized. When a coin goes on a FOMO run, always expect that any day the top fudsy layer is going to pack up and leave to the next coin. But the long game is all about that middle layer. Thats why the meme "HODL" is so effective because it very elegantly simplifies this whole concept for the common joe regardless if they understand whats going on or not. 
+
